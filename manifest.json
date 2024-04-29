@@ -1,0 +1,23 @@
+{
+    "name": "Admin Puzzel Tema",
+    "description": "Admin Puzzel Tema til rsyd it support",
+    "version": "0.0.1",
+    "author": "Nikolaj Møller Albrechtsen",
+    "manifest_version": 3,
+    "icons": {"128": "puzzelicon.png"},
+    "host_permissions": ["https://www.admin.puzzel.com/admin/app/dashboard/*"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.admin.puzzel.com/admin/app/dashboard"
+            ],
+            "js": [
+                "app.js",
+                "script.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}

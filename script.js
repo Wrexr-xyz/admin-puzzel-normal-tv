@@ -1,0 +1,2 @@
+let element = document.getElementById("js-custom-element");
+element.innerHTML = '<div class="vagtplan"><iframe id="vplan" scrolling="no" frameborder="0" src="https://wallboard.rsyd.net/"></iframe></div>';

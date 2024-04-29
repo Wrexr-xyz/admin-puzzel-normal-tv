@@ -1,0 +1,153 @@
+::-webkit-scrollbar {
+  display: none !important;
+}
+gridster {
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+}
+gridster-item {
+  display: inline-grid !important;
+  background-color: #274f83 !important;
+  height: auto !important;
+  border-radius: 10px!important;
+}
+.gridSize {
+  height: auto !important;
+  width: 100% !important;
+  display: contents !important;
+}
+app-dashboard-nav {
+  display: none;
+}
+.sidenav {
+  display: none;
+  width: 0px;
+}
+.wrapper {
+  margin-left: 0px !important;
+  display: grid !important;
+}
+.widget {
+  display: contents !important;
+}
+.content {
+  width: 100% !important;
+  background: url('https://www.beredskabsinfo.dk/wp-content/uploads/2016/04/logoer-regionsyddanmark-01.jpg') no-repeat center center fixed !important; 
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 10000px rgba(255, 255, 255, 0.9) !important;
+}
+.blueLabel {
+  padding-bottom: 22.5px !important;
+  width: auto !important;
+  margin: 5px !important;
+}
+.whiteLabelKey > span {
+  font-size: 1vw !important;
+}
+whiteLabelValue {
+  font-size: 2vw !important;
+}
+h4 {
+  margin: 0px !important;
+  margin-left: 0px !important;
+  color: white;
+  text-align: center;
+  font-weight: 600 !important;
+  font-size: 1.4rem !important;
+}
+app-widget-container {
+  margin-bottom: -35px !important;
+}
+/* I kø nu */
+#gridItem6231 {
+  width: calc(15% - 12.5px);
+  margin-top: -5px !important;
+}
+/* I kø nu > h4 */
+#gridItem6231 > div > h4 {}
+/* Kø tid */
+#gridItem6233 {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -5px !important;
+  width: calc(30% + 5px) !important;
+}
+/* Kø tid > h4 */
+#gridItem6233 > div > h4 {}
+/* Svarprocent */
+#gridItem6232 {
+  position: relative;
+  top: calc(145px + 0.5vw) !important;
+  left: 0px !important;
+  width: calc(15% - 10px) !important;
+}
+/* Opkald */
+#gridItem6237 {
+  position: relative;
+  top: calc(145px + 0.5vw) !important;
+  margin-left: 10px;
+  width: calc(30% + 10px) !important;
+  z-index: 0 !important;
+}
+/* Agentstatus */
+#gridItem6234 {
+  position: absolute;
+  top: calc(300px + 1.25vw) !important;
+  left: 10px;
+  width: 45% !important;
+}
+/* Agent liste */
+#gridItem6236 {
+  margin-top: -5px !important;
+  position: absolute;
+  right: 0;
+  height: 51dvh !important;
+  width: 52.5% !important;
+  border-radius: 10px !important;
+}
+#gridItem6236 > div > app-widget-container > app-agents > app-table > div > table {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  background-color: #274f83 !important;
+  border-radius: 10px;
+}
+#gridItem6236 > div > app-widget-container > app-agents > app-table > div > table > tbody > tr > td {
+  font-size: 1.25vw !important;
+  font-weight: 500 !important;
+}
+.col-name-container {
+  font-size: 1vw !important;
+}
+.blueEvenRow {
+  
+}
+.blueOddRow {
+  
+}
+.vagtplan {
+  position: fixed;
+  width: 100%;
+  height: 475px;
+  margin-bottom: -75px;
+  overflow: hidden;
+  bottom: 0px;
+  border: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  scale: 1;
+}
+#vplan {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: -750px;
+  width: 100%;
+  height: 1300px;
+}
